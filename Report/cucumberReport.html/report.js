@@ -1,4 +1,45 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/SauravSharma/IdeaProjects/Cucumber_Project/src/main/java/featurefiles/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/SauravSharma/IdeaProjects/Cucumber_Project/src/main/java/featurefiles/Forget_Password.feature");
+formatter.feature({
+  "name": "Check the ForgetPassword functionality link of the OrangeHrm",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Checking the ForgetPassword functionality click on the link",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "user is on Login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Login.user_is_on_Login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the forget password link",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Forget_Password.user_clicks_on_the_forget_password_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is redirecting to the ForgetPassword page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Forget_Password.user_is_redirecting_to_the_ForgetPassword_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("C:/Users/SauravSharma/IdeaProjects/Cucumber_Project/src/main/java/featurefiles/Login.feature");
 formatter.feature({
   "name": "Checking Login functionality of the Orange HRM",
   "description": "",
