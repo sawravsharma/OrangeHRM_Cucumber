@@ -1,0 +1,140 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Checking the ForgetPassword functionality click on the link",
+        "description": "",
+        "id": "check-the-forgetpassword-functionality-link-of-the-orangehrm;checking-the-forgetpassword-functionality-click-on-the-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8181153800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on Login page",
+            "match": {
+              "location": "Login.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53004500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks on the forget password link",
+            "match": {
+              "location": "Forget_Password.user_clicks_on_the_forget_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86391200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is redirecting to the ForgetPassword page",
+            "match": {
+              "location": "Forget_Password.user_is_redirecting_to_the_ForgetPassword_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check the ForgetPassword functionality link of the OrangeHrm",
+    "description": "",
+    "id": "check-the-forgetpassword-functionality-link-of-the-orangehrm",
+    "keyword": "Feature",
+    "uri": "C:/Users/SauravSharma/IdeaProjects/Cucumber_Project/src/main/java/featurefiles/Forget_Password.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Checking Login functionality with the valid login credentials",
+        "description": "",
+        "id": "checking-login-functionality-of-the-orange-hrm;checking-login-functionality-with-the-valid-login-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6330742700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on Login page",
+            "match": {
+              "location": "Login.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99236400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters username in the username textfield",
+            "match": {
+              "location": "Login.user_enters_username_in_the_username_textfield()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86558100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters password in the password textfield",
+            "match": {
+              "location": "Login.user_enters_password_in_the_password_textfield()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5099483500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the Login button",
+            "match": {
+              "location": "Login.user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152512000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "Login.user_is_on_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking Login functionality of the Orange HRM",
+    "description": "",
+    "id": "checking-login-functionality-of-the-orange-hrm",
+    "keyword": "Feature",
+    "uri": "C:/Users/SauravSharma/IdeaProjects/Cucumber_Project/src/main/java/featurefiles/Login.feature",
+    "tags": []
+  }
+]

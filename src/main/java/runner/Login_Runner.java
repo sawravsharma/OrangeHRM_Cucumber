@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
         glue = {"StepDefinitions"},
         monochrome = true,
         //strict = true,
-        plugin = {"pretty", "json:/Report/Cucumber.json",
+        plugin = {"pretty",
+                "json:Report/Cucumber.json",
                 "junit:Report/XMLReport.xml",
                 "html:Report/cucumberReport.html"}
                 )
