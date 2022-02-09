@@ -13,7 +13,8 @@ import org.junit.runner.RunWith;
         plugin = {"pretty",
                 "json:Report/Cucumber.json",
                 "junit:Report/XMLReport.xml",
-                "html:Report/cucumberReport.html"}
+                "html:Report/cucumberReport.html"},
+        tags={"@SmokeTest"}
                 )
 
 public class Login_Runner {

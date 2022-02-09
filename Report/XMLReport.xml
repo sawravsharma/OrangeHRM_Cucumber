@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="20.09797">
-    <testcase classname="Check the ForgetPassword functionality link of the OrangeHrm" name="Checking the ForgetPassword functionality click on the link" time="8.328067">
-        <system-out><![CDATA[Given user is on Login page.................................................passed
-When user clicks on the forget password link................................passed
-Then user is redirecting to the ForgetPassword page.........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Checking Login functionality of the Orange HRM" name="Checking Login functionality with the valid login credentials" time="11.769903">
-        <system-out><![CDATA[Given user is on Login page.................................................passed
-When user enters username in the username textfield.........................passed
-When user enters password in the password textfield.........................passed
-When user clicks on the Login button........................................passed
-Then user is on Homepage....................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.540873">
+    <testcase classname="Checking Login functionality of the Orange HRM" name="Checking Login functionality with the valid login credentials" time="9.540873">
+        <system-out><![CDATA[Given user is on the Login page.............................................passed
+When user enters username and password in respective textfields.............passed
+When user clicks on the demo OrangeHRM Login button.........................passed
+Then user is on the demo OrangeHRM Homepage.................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
